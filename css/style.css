@@ -697,7 +697,7 @@ a:hover {
 }
 .intro .text-block h1 span {
   -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
+  box-decoration-break: clone;
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 5px 10px;
@@ -916,7 +916,6 @@ textarea.form-control {
 .footer a {
   color: #4b5860;
   text-decoration: none;
-  padding-right: 12px;
 }
 .footer a:hover {
   color: white;
@@ -933,6 +932,14 @@ textarea.form-control {
   padding: 0;
   margin: 0;
   align-items: center;
+}
+.footer-links li {
+  padding: 0 10px;
+  border-bottom: 0;
+  border-right: 2px solid rgba(81, 95, 103, 0.4);
+}
+.footer-links li:last-child {
+  border: none;
 }
 
 .features-desc p {
@@ -1084,9 +1091,7 @@ textarea.form-control {
   font-weight: bold;
   vertical-align: top;
   display: inline-block;
-  padding: 10px;
-  width: 370px;
-  height: 60px;
+  padding: 20px 100px;
 }
 .button:hover {
   background-color: white;
