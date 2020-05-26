@@ -883,6 +883,7 @@ a:hover {
 }
 .blockquote p {
   font-size: 28px;
+  font-weight: lighter;
 }
 
 .form-group {
